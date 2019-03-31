@@ -20,5 +20,9 @@ Goals Achieved
 
 ```docker exec -it learning-node-js npm start```
 
+# Git
+
+1. Learnt adding and using SSH key for work account and personal account
+
 Will be adding soon!!!
 
