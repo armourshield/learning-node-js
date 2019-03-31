@@ -1,0 +1,27 @@
+{
+  "name": "learning",
+  "version": "1.0.0",
+  "description": "This is for expermination for learning server side API and EJS Engine",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon --inspect=0.0.0.0 app.js",
+    "test": "mocha"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/armourshield/learning-node-js.git"
+  },
+  "author": "armourshield",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/armourshield/learning-node-js/issues"
+  },
+  "homepage": "https://github.com/armourshield/learning-node-js#readme",
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
+}
