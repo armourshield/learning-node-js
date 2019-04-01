@@ -13,7 +13,7 @@ and other platforms which will be adding on as we go
 1. Was able to run a docker container for the application using the following command with debug mode from VScode IDE
 
 ```
-docker run -it --rm --name learning-node-js -v D:/Work/Expressjs/learning-node-js:/usr/src/app -w /usr/src/app -p 40000:3000 -p 9229:9229 node
+docker run -itd --rm --name learning-node-js -v d:/work/expressjs/learning-node-js:/usr/src/app -w /usr/src/app -p 40000:3000 -p 9229:9229 node
 ```
 
 2. To run the application using node have added start command in package.json and also edited launch.json for debugging in VSCode IDE
@@ -27,6 +27,10 @@ docker exec -it learning-node-js npm start
 ### Git
 
 1. Learnt adding and using SSH key for work account and personal account
+
+### Nodejs
+
+1. Started using express.static with static path directory
 
 # Will be adding soon!!!
 
